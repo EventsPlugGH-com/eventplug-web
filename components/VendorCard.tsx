@@ -32,10 +32,6 @@ export default function VendorCard({ vendor, id }: VendorProps) {
           {vendor.category}
         </p>
 
-        <h3 className="text-red-500">
-            ID: {id}
-        </h3>
-
         <Link
           href={`/vendors/${id}`}
           className="block w-full bg-yellow-500 text-black py-3 rounded-lg font-semibold hover:bg-yellow-400 text-center"
