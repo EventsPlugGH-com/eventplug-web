@@ -59,7 +59,7 @@ export default function VendorsPage() {
 
         <div className="grid md:grid-cols-3 gap-8">
           {vendors.map((vendor, index) => (
-            <VendorCard key={index} vendor={vendor} />
+            <VendorCard key={index} vendor={vendor} id={index + 1} />
           ))}
         </div>
       </div>
